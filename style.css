@@ -1,0 +1,13 @@
+/* #container{
+ width: 400px;
+ height: 100px;
+ border-radius: 12px;
+ backdrop-filter: blur(30px);
+} */
+
+@media screen  and (max-width:478px){
+ #show{
+ margin-left: 20px !important;
+ }
+
+}

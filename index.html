@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body style="background-image: url(image/pexels-lara-jameson-8828602.jpg); background-size: cover;">
+ <div class="mx-auto col-6 w-50" id="container" >
+  <h1 style="font-size: 18px; text-align: center; margin-top: 20px; color: white;" >SOME COUNTRIES AROUND THE WORLD</h1>
+  <select  name="" id="all" class="col-6 mt-3 mx-auto w-100">
+   <option value="SC">SELECT THE AVAILABLE COUNTRIES</option>
+   <option value="NG">NIGERIA</option>
+   <option value="GN">GHANA</option>
+   <option value="EG">ENGLAND</option>
+   <option value="TG">TOGO</option>
+   <option value="SA">SOUTH AFRICA</option>
+   <option value="AM">AMERICA</option>
+   <option value="GM">GERMANY</option>
+   <option value="FC">FRANCE</option>
+   <option value="ID">INDIA</option>
+   <option value="CN">CHINA</option>
+   <option value="KR">KOREA</option>
+   <option value="SG">SENEGAL</option>
+   <option value="ET">EGYPT</option>
+   <option value="AA">ALGERIA</option>
+   <option value="CA">CAMEROON</option>
+   <option value="NR">NIGER</option>
+   <option value="AU">AUSTRALIA</option>
+   <option value="MC">MEXICO</option>
+   <option value="MW">MALAWI</option>
+   <option value="IC">IVORY COAST</option>
+  </select>
+
+  <div  id="danger" class=" alert alert-danger text-center text-light bg-danger  mt-3 " style="display: none !important;">CHOOSE ONE COUNTRIES</div>
+
+  <button class=" bg-dark mt-3 mx-auto col-6 text-light w-100" id="get" onclick="check()">CHECK</button>
+  
+ </div>
+
+
+
+
+<!-- 
+<div class="mx-auto col-5 ">
+ <button class=" bg-success mt-3 mx-3" id="nigeria" onclick="nigeria()">NIGERIA</button>
+ <button class=" bg-success mt-3 mx-3" id="ghana" onclick="ghana()">GHANA</button>
+ <button class=" bg-success mt-3 mx-3" id="england" onclick="england()">ENGLAND</button>
+ <button class=" bg-success mt-3 mx-3" id="togo" onclick="togo()">TOGO</button>
+</div> -->
+<div id="show" class="mx-auto col-5 w-50" >
+
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
